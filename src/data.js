@@ -65,4 +65,12 @@ export const popularProducts = [
     id: 6,
     img: 'https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg'
   },
+  {
+    id: 7,
+    img: 'https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg'
+  },
+  {
+    id: 8,
+    img: 'https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg'
+  },
 ]

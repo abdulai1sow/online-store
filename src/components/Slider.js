@@ -86,7 +86,7 @@ function Slider() {
       <Wrapper slideIndex={slideIndex}>
         {sliderItems.map((item) => (
           
-          <Slide bg={item.bg}>
+          <Slide bg={item.bg} key={item.id}>
           <ImgContainer>
             <Image src={item.img} />
           </ImgContainer>
@@ -108,3 +108,6 @@ function Slider() {
 }
 
 export default Slider
+
+
+

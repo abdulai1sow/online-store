@@ -1,7 +1,7 @@
 import React from 'react' 
 import styled from 'styled-components'
 import { BsSearch } from 'react-icons/bs'
-import { AiOutlineMail, AiOutlineShoppingCart } from 'react-icons/ai'
+import { AiOutlineShoppingCart } from 'react-icons/ai'
 
 const Container = styled.div`
   height: 90px;
