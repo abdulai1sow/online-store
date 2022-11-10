@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { BsInstagram, BsFacebook, BsTwitter, BsWhatsapp, BsFillPinMapFill, BsFillTelephoneFill } from 'react-icons/bs'
 import { AiOutlineMail } from 'react-icons/ai'
-import { FaApplePay, FaPaypal, FaCcAmazonPay, FaCcVisa } from 'react-icons/fa'
+
 
 
 const Container = styled.div`
@@ -70,6 +70,7 @@ const Footer = () => {
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, quas excepturi at tempore accusamus quod numquam eius quae magnam harum quam sapiente! Magni reprehenderit nam soluta animi, non sunt nobis?
         </Desc>
         <SocialContainer>
+
           <SocialIcon color='e4405f'>
             <BsInstagram />
           </SocialIcon>
@@ -103,8 +104,8 @@ const Footer = () => {
           <ListItem>Terms</ListItem>
         </List>
       </Center>
-      <Right> 
-        
+      <Right>
+
         <Title>Contact</Title>
         <ContactItem> <BsFillPinMapFill style={{ marginRight: '10px' }} /> 5563 Trinity Ave SW, Atlanta, GA 30303
 
@@ -118,9 +119,9 @@ const Footer = () => {
           <AiOutlineMail style={{ marginRight: '10px' }} /> abdulai@gmail.com
         </ContactItem>
 
-        <Payment src='https://i.ibb.co/Qfvn4z6/payment.png'/>
-          
-        
+        <Payment src='https://i.ibb.co/Qfvn4z6/payment.png' />
+
+
       </Right>
     </Container>
   )
