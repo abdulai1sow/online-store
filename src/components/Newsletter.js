@@ -36,13 +36,13 @@ const Button = styled.button`
   color: white;
 `
 
-const Newletter = () => {
+const Newsletter = () => {
   return (
     <Container>
       <Title>Newsletter</Title>
       <Desc>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</Desc>
       <InputContainer>
-        <Input placeholder='email'/>
+        <Input placeholder='email' />
         <Button>
           <FiSend style={{ fontSize: 26 }} />
         </Button>
@@ -51,4 +51,4 @@ const Newletter = () => {
   )
 }
 
-export default Newletter
+export default Newsletter
